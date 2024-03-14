@@ -3,7 +3,8 @@
 Console.WriteLine("initial project");
 Console.WriteLine("modif3");
 
-static double CalculateAverage(int[] numbers)
+static int FindMaximum(int[] numbers)
 {
-    return numbers.Sum() / (double)numbers.Length;
+    return numbers.Max();
 }
+
